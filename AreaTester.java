@@ -22,7 +22,9 @@ public class AreaTester {
         AreaTester test = new AreaTester();
         test.setHeight(5);
         test.setWidth(9);
-        System.out.println(test.area());
+        int getarea = test.getHeight()*test.getWidth();
+        System.out.println("Calculated area: "+test.area());
+        System.out.println("Expected area: "+getarea);
     }
     
 }
